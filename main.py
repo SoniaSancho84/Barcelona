@@ -1,3 +1,7 @@
-from fastapi import fastAPI
+from fastapi import FastAPI
 
-app = fastAPI()
+app = FastAPI()
+
+@app.get('/ruta1')
+def ruta1():
+    return("mensaje":"Bienvenida a tu primera api ")
