@@ -1,2 +1,3 @@
-fastapi
+fastapi == 
 uvicorn
+MongoDB Compass == 1.33.1
