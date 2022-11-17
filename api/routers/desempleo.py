@@ -23,3 +23,8 @@ def desempleo_by_year(year:int):
 def desempleo_by_all(dist:str,year:int, month:str):
     res = db["Desempleo"].find({"District Name":dist, "Year":year, "Month":month}, {"_id":0})
     return loads(json_util.dumps(res))
+
+@router.get("/desempleo")
+def desempleo_by_all(dist:str, year:int, month:str, gender:str):
+    res = db["Desempleo"].find({"District Name":dist, "Year":year, "Month":month, "Gender":gender})
+    return loads(json_util,dumps(res))
