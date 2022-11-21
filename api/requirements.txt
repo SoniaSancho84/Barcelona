@@ -1,3 +1,17 @@
-fastapi == 
-uvicorn
-MongoDB Compass == 1.33.1
+MongoDB Compass       1.33.1
+debugpy               1.5.1
+decorator             5.1.1
+fastapi               0.87.0
+GitPython             3.1.29
+json5                 0.9.6
+jsonschema            4.4.0
+jupyter               1.0.0
+numpy                 1.21.5
+pandas                1.4.4
+pip                   22.1.2
+pymongo               4.3.2
+python-dotenv         0.21.0
+streamlit             1.14.1
+uvicorn               0.19.0
+validators            0.20.0
+virtualenv            20.16.6
